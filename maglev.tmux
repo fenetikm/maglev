@@ -117,14 +117,14 @@ apply_theme() {
     window_status_bell_attr=blink,bold
     tmux setw -g window-status-bell-style fg=$window_status_bell_fg,bg=$window_status_bell_bg,$window_status_bell_attr
 
-    window_status_last_fg=colour4 # blue
+    window_status_last_fg=colour253 # white
     window_status_last_attr=default
     tmux setw -g window-status-last-style $window_status_last_attr,fg=$window_status_last_fg
 
     battery_full_fg=colour160   # red
     battery_empty_fg=colour254  # white
     battery_bg=colour160        # black
-    time_date_fg=colour8      # gray
+    time_date_fg=colour253      # white
     time_date_bg=colour0 # dark gray
     whoami_fg=colour254         # white
     whoami_bg=colour160         # red
